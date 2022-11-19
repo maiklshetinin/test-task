@@ -66,6 +66,10 @@
   text-align: right;
   color: #E4E5EA;
 }
+.phone_number:hover {
+  cursor: pointer;
+  color: #a2a2a2;
+}
 
 .section_subtitle {
   margin-bottom: 10px;
@@ -75,6 +79,10 @@
   font-size: 16px;
   line-height: 19px;
   color: #E4E5EA;
+}
+.section_subtitle:hover {
+cursor: pointer;
+color: #a2a2a2;
 }
 
 .text_right {
@@ -113,6 +121,20 @@
 
 .messegers_container_mobile {
   display: none;
+}
+.messegers_container :nth-child(even):hover {
+  cursor: pointer;
+}
+
+.messegers_container :nth-child(odd):hover {
+  cursor: pointer;
+}
+.messegers_container_mobile :nth-child(even):hover {
+  cursor: pointer;
+}
+
+.messegers_container_mobile :nth-child(odd):hover {
+  cursor: pointer;
 }
 
 @media(max-width:1200px) {

@@ -1,6 +1,7 @@
 .ball {
   position: absolute;
   border-radius: 50%;
+  pointer-events: none;
 }
 
 .red_light {

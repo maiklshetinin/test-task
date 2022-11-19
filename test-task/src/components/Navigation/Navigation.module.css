@@ -20,6 +20,10 @@
   color: #E4E5EA;
   list-style: none;
 }
+.list_items li:hover {
+ cursor: pointer;
+ color: #bec6f4;
+}
 
 @media (max-width: 1330px) {
   .nav {

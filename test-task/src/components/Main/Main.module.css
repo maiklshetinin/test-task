@@ -90,6 +90,12 @@
   color: #E4E5EA;
 }
 
+.btn:hover {
+  cursor: pointer;
+  background: #064ce1;
+
+}
+
 .btn {
   margin-top: auto;
   margin-bottom: 0;

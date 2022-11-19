@@ -45,6 +45,13 @@
   justify-content: space-between;
 }
 
+.messegers_container :nth-child(even):hover {
+  cursor: pointer;
+}
+.messegers_container :nth-child(odd):hover {
+  cursor: pointer;
+}
+
 @media (max-width: 1100px) {
 
   .phone_number {
