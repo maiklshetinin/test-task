@@ -2,6 +2,7 @@
   height: 315px;
   padding: 55px 0 20px 0;
   display: flex;
+  /* background-color: aqua; */
 }
 
 
@@ -140,11 +141,12 @@
 @media(max-width:400px) {
   .footer {
     height: auto;
-    padding: 25px 0 60px 0;
+    padding: 43px 14px 60px 14px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border: 1px solid #4077F3;
+    background-color: #000;
+
   }
 
   .section_title {
@@ -196,11 +198,13 @@
     padding-top: 7px;
     padding-bottom: 11px;
   }
-.rights_reserved_container{
-  padding-top: 40px;
-}
-    .rights_reserved {
-      text-align: left;
-    }
+
+  .rights_reserved_container {
+    padding-top: 40px;
+  }
+
+  .rights_reserved {
+    text-align: left;
+  }
 
 }
