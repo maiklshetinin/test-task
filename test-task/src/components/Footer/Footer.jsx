@@ -47,9 +47,6 @@ export const Footer = () => {
           <span className={style.rights_reserved}>©WELBEX 2022. Все права защищены.</span>
           <span className={style.rights_reserved}>Политика конфиденциальности</span>
         </div>
-
-
-
       </section>
     </footer>
   )

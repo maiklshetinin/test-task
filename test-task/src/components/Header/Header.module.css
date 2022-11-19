@@ -72,17 +72,19 @@
     display: none;
   }
 }
+
 @media (max-width: 500px) {
 
-  .messegers_container{
+  .messegers_container {
     display: none;
   }
-    .header {
-      position: fixed;
-      z-index: 5;
-      left: 0;
-      top: 0;
-     justify-content: center;
-      background-color: #0E1014;
-    }
+
+  .header {
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    background-color: #0E1014;
+  }
 }
