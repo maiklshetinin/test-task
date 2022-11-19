@@ -7,7 +7,6 @@ import { Footer } from './components/Footer/Footer';
 function App() {
   return (
     <div className="wrapper">
-
       <div className='desktop'>
         <Ball width='311px' left='-102px' top='256px' className='red_light' />
         <Ball width='259px' left='602px' top='-154px' className='purpule_light' />
